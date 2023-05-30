@@ -21,3 +21,7 @@ Threat modeling is a systematic approach to identifying, evaluating, and priorit
 7. Document and communicate: Document the results of the threat modeling process, including the identified threats, their likelihood and impact ratings, and the recommended countermeasures. Share this information with relevant stakeholders, such as developers, architects, or security teams.
 
 8. Iterative process: Threat modeling is an iterative process that should be revisited regularly to account for changes in the system or emerging threats. As the system evolves, it is important to update the threat model and reassess the risks.
+
+The threat modeling in this work uses : STRIDE, MITRE ATT&CK, DREAD and NIST SP800-53 frameworks and standards.The STRIDE model was used to classify potential attack vectors on the system, and these vectors were mapped to the MITRE ATT&CK framework and rated using the DREAD model. Second, several countermeasures and mitigations were suggested and mapped to the NIST
+SP 800-53 Rev 5 list to mitigate those attacks’ vectors. The proposed model in this work is a fully indexed, scalable, adjustable, and exploitable threat
+model for an e-health use case, and it may serve as the foundation for a new standard for the security of blockchain architectures.
